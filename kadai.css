@@ -19,7 +19,6 @@ main {
 
 .main-box {
   width: 300px;
-  height: 300px;
   margin-right: 30px;
   background-color: #eeeeee;
   position: relative;
@@ -67,7 +66,6 @@ main {
 
 .text {
   margin: 0 0 5px 10px;
-  font-size: 11px;
   letter-spacing: 1px;
   line-height: 22px;
 }
@@ -87,7 +85,7 @@ footer {
   .main-box {
     width: 90%;
     margin: 0 auto 20px;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 5px 10px;
   }
 
   .main-box:last-child {
@@ -108,12 +106,10 @@ footer {
 
   .title {
     margin: 10px 0 0 0;
-    font-size: 20px;
   }
 
   .text {
     margin: 5px 0 0 0;
-    font-size: 17px;
-    letter-spacing: 11px;
+    letter-spacing: 6px;
   }
 }
